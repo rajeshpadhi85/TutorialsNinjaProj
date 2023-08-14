@@ -18,7 +18,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Login extends Base {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	LoginPage loginpage;
 	
 	/*public Login()

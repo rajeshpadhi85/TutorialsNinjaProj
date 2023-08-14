@@ -12,7 +12,7 @@ import com.tutorialsninja.qa.pages.SearchPage;
 
 public class Search extends Base {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	SearchPage searchpage;
 	HomePage homepage;
 	
@@ -44,10 +44,11 @@ public class Search extends Base {
 		searchpage=homepage.clickOnSearchButton();
 		*/		
 		//String actualSearchMessage=searchpage.retriveNoProductMessageText();
-		Assert.assertEquals(searchpage.retriveNoProductMessageText(), dataProp.getProperty("noProductTextInSearchResult"),"no product message in search result is not displayed");
+		Assert.assertEquals(searchpage.retriveNoProductMessageText(),"abcd" ,"no product message in search result is not displayed");
+		//dataProp.getProperty("noProductTextInSearchResult")
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 3, dependsOnMethods = {"verifySearchWithInvalidProduct","verifySearchWithValidProduct"})
 	public void verifySearchWithoutAnyProduct()
 	{
 		
