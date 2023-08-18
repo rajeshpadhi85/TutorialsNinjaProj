@@ -14,7 +14,7 @@ import com.tutorialsninja.qa.pages.AccountSuccessPage;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.RegisterPage;
 
-public class Register extends Base {
+public class RegisterTest extends Base {
 	public WebDriver driver;
 	RegisterPage registerpage;
 	AccountSuccessPage accountsuccesspage;

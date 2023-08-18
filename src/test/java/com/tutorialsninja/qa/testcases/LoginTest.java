@@ -16,7 +16,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 
-public class Login extends Base {
+public class LoginTest extends Base {
 	
 	public WebDriver driver;
 	LoginPage loginpage;

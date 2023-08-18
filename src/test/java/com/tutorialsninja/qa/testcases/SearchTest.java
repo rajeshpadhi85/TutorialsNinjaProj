@@ -10,7 +10,7 @@ import com.tutorialsninja.qa.base.Base;
 import com.tutorialsninja.qa.pages.HomePage;
 import com.tutorialsninja.qa.pages.SearchPage;
 
-public class Search extends Base {
+public class SearchTest extends Base {
 	
 	public WebDriver driver;
 	SearchPage searchpage;
