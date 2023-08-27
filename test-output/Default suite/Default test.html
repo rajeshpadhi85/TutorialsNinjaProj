@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  TutorialsNinja Tests</title>
+<title>TestNG:  Default test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>TutorialsNinja Tests</h2><table border='1' align="center">
+<h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 28 00:06:59 IST 2023</td>
+<td>Started on:</td><td>Sun Aug 27 23:28:06 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13900 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20401 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -78,10 +78,40 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct()'><b>verifySearchWithInvalidProduct</b><br>Test class: com.tutorialsninja.qa.testcases.SearchTest</td>
 <td><div><pre>java.lang.AssertionError: no product message in search result is not displayed expected [abcd] but found [There is no product that matches the search criteria.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
 	at com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct(SearchTest.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1623761043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1623761043'><pre>java.lang.AssertionError: no product message in search result is not displayed expected [abcd] but found [There is no product that matches the search criteria.]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2047812687", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2047812687'><pre>java.lang.AssertionError: no product message in search result is not displayed expected [abcd] but found [There is no product that matches the search criteria.]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
@@ -115,8 +145,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd</td></tr>
+<td>1</td>
+<td>com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -129,8 +159,8 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct()'><b>verifySearchWithValidProduct</b><br>Test class: com.tutorialsninja.qa.testcases.SearchTest</td>
 <td></td>
-<td>0</td>
-<td>com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd</td></tr>
+<td>1</td>
+<td>com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -142,14 +172,32 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithoutAnyProduct()'><b>verifySearchWithoutAnyProduct</b><br>Test class: com.tutorialsninja.qa.testcases.SearchTest</td>
-<td><div><pre>java.lang.Throwable: Method com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithoutAnyProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd depends on not successfully finished methods 
-[com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd
-com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd]
+<td><div><pre>java.lang.Throwable: Method com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithoutAnyProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10 depends on not successfully finished methods 
+[com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10
+com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace376601584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace376601584'><pre>java.lang.Throwable: Method com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithoutAnyProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd depends on not successfully finished methods 
-[com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd
-com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd]
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1088818894", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1088818894'><pre>java.lang.Throwable: Method com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithoutAnyProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10 depends on not successfully finished methods 
+[com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithValidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10
+com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct() on instance com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10]
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -171,7 +219,7 @@ com.tutorialsninja.qa.testcases.SearchTest.verifySearchWithInvalidProduct() on i
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.tutorialsninja.qa.testcases.SearchTest@46cdf8bd</td></tr>
+<td>com.tutorialsninja.qa.testcases.SearchTest@2a7f1f10</td></tr>
 </table><p>
 </body>
 </html>
